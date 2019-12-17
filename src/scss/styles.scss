@@ -1,0 +1,24 @@
+/*
+   Import partials below
+*/
+@import './reset.scss';
+@import './fonts.scss';
+@import './helpers/variables.scss';
+@import './helpers/wrapper.scss';
+@import './helpers/container.scss';
+
+h1{
+   font-size: 30px;
+}
+
+
+// COMPONENTS //
+@import './components/header/index.scss';
+
+// @import 'components/
+// @import 'components/
+// @import 'components/
+// @import 'components/
+// @import 'components/
+// @import 'components/
+// @import 'components/
