@@ -3,6 +3,13 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 0 auto;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
 }
 
 @media(min-width: 1024px){

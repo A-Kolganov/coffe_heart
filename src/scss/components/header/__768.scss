@@ -1,0 +1,14 @@
+@media(min-width:768px){
+    .menu__list__item__link:hover::after{
+        left: 50%;
+        top: 50%;
+        transform: translate( 450%,-50%);
+
+    }
+    .menu__list__item__link:hover::before{
+        left: 50px;
+        top: 50%;
+        transform: translate(-700%,-50%);
+
+    }
+}
