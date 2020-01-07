@@ -3,7 +3,7 @@
     height: auto;
     
 }
-.content__main,.content__menu{
+.content__main,.content__menu,.content__discount{
     width: 100%;
     background-color: $mainBgnd;
     margin: 15px;
@@ -20,7 +20,7 @@
 }
 .content__main__img{
     background-image: url('../img/backgrounds/11-113922_hd-free-coffee-wallpaper-cafe-background-images-hd.jpg');
-    background-position: center;
+    background-position: 50% 90%;;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -68,11 +68,17 @@
     margin: 0 auto;
 }
 .content__menu__category:hover{
-    opacity: 0.3;
-    border: #fff 5px solid;
-    border-radius: 15px;
+
     box-sizing:border-box;
-    padding: 10px;
+
+}
+
+.content__menu__category:hover>.content__menu__category__img{
+    opacity: 0.3;
+}
+.content__menu__category:hover>.content__menu__category__title-cover>.content__menu__category__title-cover__title{
+    transform: scale(1.2);
+    color: $clrFontSecondary;
 }
 .content__menu__category__img{
     
@@ -86,13 +92,13 @@
     margin: 5px 0;
 }
 .content__menu__category__img--classic{
-    background-image: url('../../../img/275_original.jpg');
+    background-image: url('../img/275_original.jpg');
 }
 .content__menu__category__img--coctails{
-    background-image: url('../../../img/c32bb9ff155b570d9a1feca4d5613d57.png')
+    background-image: url('../img/c32bb9ff155b570d9a1feca4d5613d57.png')
 }
 .content__menu__category__img--wine{
-    background-image: url('../../../img/mulled_wine.jpg')
+    background-image: url('../img/mulled_wine.jpg')
 }
 .content__menu__category__title-cover{
     flex-grow: 1;
