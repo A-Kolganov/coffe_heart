@@ -1,21 +1,6 @@
-.wrapper {
-    width: 100%;
-    min-height: 100vh;
-    height: auto;
-    background:  url('../img/backgrounds/main_background.jpg');
+body{
+    background:  url('../../img/backgrounds/coffee-break.jpg') ;
     background-repeat: repeat;
-    background-position: center;
-    position: fixed;
-}
-.wrapper-cover{
-    display: block;
-    position: absolute;
-    content: ' ';
-    width: 100vw;
-    height: 100vh;
-    background: rgba($mainBgnd, 0.2);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 1;
+    background-position: 50%;
+    background-attachment: fixed;
 }
